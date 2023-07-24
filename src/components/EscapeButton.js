@@ -30,7 +30,7 @@ class EscapeButton extends Component {
   render() {
     const { top, left } = this.state
 
-    return <button style={{ position: 'absolute', top: top, left: left }} onMouseEnter={this.escape}>click Me if you can!</button>
+    return <button className='escape-button' style={{ top: top, left: left }} onMouseEnter={this.escape}>click Me if you can!</button>
   }
 
 }
